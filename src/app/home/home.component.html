@@ -1,0 +1,10 @@
+
+<app-navegador></app-navegador>
+<div class="d-flex">
+
+    <app-card [routerLink]="['/','post',card?.id]" [dataEntrante]='card' *ngFor="let card of cards"></app-card>
+  
+  </div>
+<app-slider class="w-100"></app-slider>
+  
+  

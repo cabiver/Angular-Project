@@ -1,0 +1,17 @@
+<div>
+    <h3 class="title">Lista de favoritos</h3>
+</div>
+<div class="w-100">
+    <ul class="">
+        <li *ngFor="let video of listaDeVideos">
+            <div>
+                <img class="w-25" [src]="video?.img" alt="">
+            </div>
+            <div>
+                <div class="title-inside">
+                    {{video?.title}}
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

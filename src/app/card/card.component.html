@@ -1,0 +1,10 @@
+<div class="card">
+    <img class="image" style="max-width: 200px;" [src]="dataEntrante.img" alt="">
+    <div class="warpper-text">
+        <div class="title">{{dataEntrante?.title}}</div>
+        <div class="sub-title">{{dataEntrante?.subTitule}}</div>
+    </div>
+    <div>
+        <button class="bton" (click)="agregarFavorito()"> favorito</button>
+    </div>
+</div>
